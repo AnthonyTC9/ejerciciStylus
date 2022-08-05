@@ -1,0 +1,21 @@
+body {
+  background: #fff;
+  color: #f00;
+  margin-top: 40px;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+section {
+  height: 20px;
+  width: 30%;
+}
+@media screen and (min-width: 768px) {
+  body {
+    width: 40%;
+  }
+  section {
+    width: 15%;
+  }
+}
